@@ -1,85 +1,43 @@
 # Lume Notes
 
-**Um espaço tranquilo para escrever.**
+**Um espaço tranquilo para escrever. Uma ideia de cada vez. O resto pode esperar.**
 
-O Lume é um editor de texto e Markdown para **Windows x64**, pensado para rascunhar ideias, organizar documentos e escrever com menos distrações. Suas notas ficam no computador, sem precisar de uma conta para usar o aplicativo.
+Editor gratuito e de código aberto para texto e Markdown no Windows. Escreva com formatação visual, organize documentos em grupos de abas e retome seus rascunhos guardados no computador.
 
-**[Baixar a versão mais recente](https://github.com/educastro100/lume-notes-releases/releases/latest)**
+## Baixar e instalar
+
+**[Baixar o Lume Notes na Microsoft Store](https://apps.microsoft.com/detail/9N09X4KQ1D3V)**
+
+Abra o link, clique em **Obter** ou **Instalar** e depois abra o Lume pelo menu Iniciar. A Microsoft Store é o canal principal de instalação e atualização para Windows 10/11 x64.
+
+Este repositório guarda o **canal legado de instaladores e metadados do atualizador do GitHub**, além das issues de suporte. Os Assets das releases antigas não são o caminho recomendado para novas instalações.
 
 ## O que você pode fazer
 
-- **Escrever em texto ou Markdown:** edite com a formatação visível ou veja o código Markdown com uma prévia ao lado.
-- **Formatar suas notas:** negrito, itálico, sublinhado, código, títulos, listas com marcadores e números, citações, tabelas e listas de tarefas.
-- **Organizar documentos em abas e grupos:** escolha nomes e cores, recolha grupos, mova arquivos por arraste e selecione vários documentos de uma vez.
-- **Retomar de onde parou:** o Lume recupera abas, rascunhos, grupos e preferências ao abrir novamente.
-- **Personalizar o espaço:** temas de cor, tema automático pelo horário, tamanho da fonte, ícones por documento e painéis redimensionáveis.
-- **Entrar no modo foco:** expanda a área de escrita e recolha os controles com uma transição suave.
-- **Encontrar e revisar:** busca, substituição, contagem de palavras e caracteres e histórico de desfazer e refazer durante a sessão.
-- **Usar seus arquivos locais:** abra e salve documentos de texto, Markdown, JSON, logs e outros formatos de texto. O modo de código também destaca JavaScript/TypeScript e JSON.
-- **Integrar com o Windows:** use Abrir com Lume e escolha o aplicativo como padrão nas configurações do próprio Windows.
-- **Escolher seu idioma:** português do Brasil, inglês, francês, alemão, grego ou chinês simplificado.
-- **Atualizar pelo aplicativo:** verifique novas versões e instale a atualização pelo Lume.
+- Escrever em texto ou Markdown, com edição visual ou código e prévia lado a lado.
+- Aplicar negrito, itálico, sublinhado, código, títulos, listas, tabelas e tarefas.
+- Organizar documentos em abas e grupos com nomes, cores, ícones e reordenação por arraste.
+- Recuperar abas e rascunhos locais ao reabrir o aplicativo.
+- Escolher entre Manhã, Dia, Tarde, Noite e Madrugada ou ativar o tema automático.
+- Usar modo foco, busca e substituição, atalhos e painéis redimensionáveis.
+- Escolher português, inglês, espanhol, francês, alemão, grego ou chinês simplificado.
 
-## Como o Lume guarda seus textos
+## Como começar
 
-As notas e os rascunhos são locais. O aplicativo não exige cadastro e não oferece sincronização na nuvem. A consulta de atualizações usa este canal público do GitHub; o conteúdo das suas notas não é enviado nessa consulta.
+Use **Ctrl + N** para criar uma nota, **Ctrl + O** para abrir um arquivo e **Ctrl + S** para salvar. Selecione um trecho para formatá-lo. Pressione **F8** para alternar o modo foco.
 
-A recuperação de rascunhos ajuda a retomar o trabalho, mas **não substitui salvar o arquivo original**. Use Salvar ou Salvar como para gravar suas alterações em disco.
+Suas notas ficam no computador, sem cadastro no Lume e sem sincronização própria na nuvem. A recuperação de rascunhos não substitui salvar seus documentos em arquivos.
 
-## Como baixar e instalar
+O [README do projeto](https://github.com/educastro100/lume-notes#readme) reúne o guia de uso, todos os atalhos, requisitos e informações de desenvolvimento.
 
-1. Clique em **[Baixar a versão mais recente](https://github.com/educastro100/lume-notes-releases/releases/latest)**.
-2. Na página da versão, procure a seção **Assets**, abaixo das notas da atualização. Se ela estiver fechada, clique para expandir.
-3. Baixe o arquivo **`Lume-Notes-<versão>-Windows-x64-setup.exe`**. Por exemplo: `Lume-Notes-0.9.1-Windows-x64-setup.exe`.
-4. Abra o arquivo `.exe` baixado e siga as instruções do instalador.
+## Atualizações e instalações anteriores
 
-Na página inicial deste repositório, você também pode acessar a versão pela seção **Releases**, na lateral direita. Não é necessário ter uma conta no GitHub para baixar.
+Na edição da Store, as atualizações são gerenciadas pela Microsoft Store. O botão **Abrir Microsoft Store**, em **Configurações → Atualizações**, direciona para a área de atualizações da loja.
 
-## Já tem o Lume instalado?
+O atualizador das instalações antigas do GitHub consulta este repositório; ele não transforma essa instalação na edição da Store. Para mudar de canal, salve os documentos importantes em arquivos, instale pela Store e confira seus rascunhos e preferências antes de remover a edição anterior. A migração automática dos dados entre as edições ainda não foi validada.
 
-No aplicativo, use **Verificar atualização** para procurar uma versão mais recente e seguir o fluxo de atualização. Você também pode baixar o novo instalador pela página de Releases.
+## Código aberto, ajuda e sugestões
 
-## Qual arquivo devo baixar?
+O código-fonte está público em **[educastro100/lume-notes](https://github.com/educastro100/lume-notes)**, sob [licença MIT](https://github.com/educastro100/lume-notes/blob/main/LICENSE).
 
-Para instalar o Lume, você precisa apenas do arquivo que termina em **`-setup.exe`**.
-
-| Arquivo em Assets | Para que serve |
-| --- | --- |
-| `Lume-Notes-<versão>-Windows-x64-setup.exe` | Instalador do Lume para Windows x64. **Baixe este arquivo.** |
-| Arquivo terminado em `.exe.sig` | Assinatura usada para verificar a atualização. |
-| `latest.json` | Informações de versão e download consultadas pelo atualizador do aplicativo. |
-| `SHA256SUMS.txt` | Hashes para conferir a integridade dos arquivos. |
-| `Source code (zip)` e `Source code (tar.gz)` | Arquivos gerados pelo GitHub a partir deste repositório de distribuição; não são instaladores. |
-
-Este repositório contém os instaladores e os metadados de atualização. O código-fonte do aplicativo é mantido em um repositório privado.
-
-## Atalhos mais comuns
-
-| Ação | Atalho |
-| --- | --- |
-| Nova nota | Ctrl + N |
-| Abrir arquivos | Ctrl + O |
-| Salvar | Ctrl + S |
-| Salvar como | Ctrl + Shift + S |
-| Fechar a aba atual | Ctrl + W |
-| Buscar e substituir | Ctrl + F |
-| Negrito / itálico / sublinhado | Ctrl + B / Ctrl + I / Ctrl + U |
-| Código em linha ou bloco | Ctrl + Shift + C |
-| Desfazer / refazer | Ctrl + Z / Ctrl + Y |
-| Modo foco | F8 |
-
-## Ajuda, problemas e sugestões
-
-Encontrou um problema ou tem uma ideia para o Lume? Abra uma **[issue neste repositório](https://github.com/educastro100/lume-notes-releases/issues)**. Informe a versão do aplicativo, o que esperava que acontecesse e os passos para reproduzir o comportamento.
-
-Não é necessário ter uma conta no GitHub para baixar o instalador. Para criar uma issue, é necessário entrar na sua conta.
-
-## Tecnologias
-
-O Lume usa **Tauri 2 e Rust** na integração com o sistema, **React e TypeScript** na interface, **Tiptap/ProseMirror** na edição visual e **CodeMirror 6** na edição de código. As fontes e os ícones fazem parte da interface local.
-
-## Em preparação: versão 0.10.0
-
-A próxima versão reúne formatação combinada com código em linha, ajustes no espaçamento de listas, ajuda dentro das configurações, bandeiras nos idiomas, tema Manhã, cinco novos ícones e melhorias nos botões de abertura e nos avisos de formatação.
-
-Esta seção descreve o que está em desenvolvimento. O link de download no início da página sempre leva à versão já publicada.
+Para relatar um problema ou sugerir uma melhoria, [abra uma issue neste repositório](https://github.com/educastro100/lume-notes-releases/issues). Informe a versão do aplicativo e os passos para reproduzir. Não inclua documentos pessoais ou informações confidenciais.
